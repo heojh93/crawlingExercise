@@ -1,6 +1,6 @@
-##__CrawlingExercise__
+##CrawlingExercise
 
-###참고
+참고
 
 *한글 url관련*
 >http://cpeter7.blogspot.kr/2008/11/urllib-unicode-handling.html  
