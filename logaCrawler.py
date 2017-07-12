@@ -15,7 +15,8 @@ from selenium import webdriver
 # Get logaDB's Search Page
 def getPage(targetUrl):
 
-    url = 'http://www.logadb.com/search/search.php?s_sec=fir&pg_mode=search&bad1=1&bad3=1&t_search_value=' + targetUrl
+    # copyright issue... hide url
+    url = '****' + targetUrl
     print(url)
     source_code = urllib.request.urlopen(url)
     plain_text = source_code.read()
