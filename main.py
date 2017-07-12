@@ -1,5 +1,5 @@
 from naverSiteCrawler import *
-from logaCrawler2 import *
+from logaCrawler import *
 
 import xlsxwriter
 

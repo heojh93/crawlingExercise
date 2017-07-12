@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 
 exclude = ['instagram', 'facebook', 'google', 'naver', 'youtube', 'daum', 'twitter',
-           'blog', 'tistory', '.or.','.ac', '.org/', 'edu','gov', 'asiae.co.kr'
+           'blog', 'tistory', '.or.','.ac', '.org/', 'edu','gov', 'asiae.co.kr',
            '.sbs.', '.kbs.', '.ebs.', '.imbc.','apple', 'mnet', 'egloos']
 
 query = input()

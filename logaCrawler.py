@@ -29,7 +29,7 @@ def logaCrawl(xlsx):
     # It needs to use webdriver because of
     # 1. accessing iframe page and
     # 2. logaDB's security process.
-    browser = webdriver.Chrome('C:/Users/Heoju/Desktop/crawler/chromedriver')
+    browser = webdriver.Chrome('./chromedriver')
 
     # variables for xlsx
     xrow = 1
